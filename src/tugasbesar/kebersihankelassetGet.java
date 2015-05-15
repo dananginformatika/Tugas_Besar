@@ -8,9 +8,9 @@ import java.util.Scanner;
 
 /**
  *
- * @author AHO
+ * @author Danang
  */
-public class kebersihankelassetGet {
+abstract public class kebersihankelassetGet {
     private String sirkulasiudara;
     private String pencahayaan;
     private String kelembaban;
@@ -71,7 +71,8 @@ public class kebersihankelassetGet {
     }
 
     
-    
+    abstract void inputan();
+    abstract void outputan();
     
     
 }

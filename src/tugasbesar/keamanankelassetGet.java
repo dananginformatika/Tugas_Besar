@@ -6,9 +6,9 @@ package tugasbesar;
 
 /**
  *
- * @author AHO
+ * @author Danang
  */
-public class keamanankelassetGet {
+abstract public class keamanankelassetGet {
     private String kekokohan;
     private String kuncipintu;
     private String kuncijendela;
@@ -70,5 +70,6 @@ public class keamanankelassetGet {
             this.keamanan="inputan salah";
     }
     
-    
+    abstract void inputan();
+    abstract void outputan();
 }

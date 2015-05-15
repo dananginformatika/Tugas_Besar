@@ -6,10 +6,10 @@ package tugasbesar;
 
 /**
  *
- * @author AHO
+ * @author Danang
  */
 import java.util.Scanner;
-public class saranaPrasaranasetget {
+abstract public class saranaPrasaranasetget {
     private int jumlahsteker;
     private String kondisisteker;
     private String posisisteker;
@@ -61,7 +61,7 @@ public class saranaPrasaranasetget {
 
     public void setPosisisteker(String posisisteker) {
         this.posisisteker = posisisteker;
-        if("Dipojok ruang".equals(posisisteker) || "Dekat dosen".equals(posisisteker) || "dipojok ruang".equals(posisisteker) || "dekat dosen".equals(posisisteker))
+        if("Dipojok-ruang".equals(posisisteker) || "Dekat-dosen".equals(posisisteker) || "dipojok-ruang".equals(posisisteker) || "dekat dosen".equals(posisisteker))
 			this.posisisteker="sesuai";
 		else 
 			this.posisisteker="tidak sesuai";
@@ -273,6 +273,8 @@ public class saranaPrasaranasetget {
 			this.posisicctv="tidak sesuai";
     }
     
+    abstract void inputan();
+    abstract void outputan();
     
     
 }

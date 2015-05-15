@@ -6,9 +6,9 @@ package tugasbesar;
 
 /**
  *
- * @author AHO
+ * @author Danang
  */
-public class kenyamanankelassetget {
+abstract public class kenyamanankelassetget {
     private String kebisingan;
     private String bau;
     private String kebocoran;
@@ -86,6 +86,7 @@ public class kenyamanankelassetget {
     }
 
 
-    
+    abstract void inputan();
+    abstract void outputan();
     
 }

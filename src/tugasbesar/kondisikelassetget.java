@@ -6,9 +6,9 @@ package tugasbesar;
 
 /**
  *
- * @author AHO
+ * @author Danang
  */
-public class kondisikelassetget {
+abstract public class kondisikelassetget {
     private String namaruangan;
     private String lokasiruaangan;
     private String programstudi;
@@ -140,5 +140,6 @@ public class kondisikelassetget {
         this.luas = luas;
     }
     
-    
+    abstract void inputan();
+    abstract void outputan();
 }
